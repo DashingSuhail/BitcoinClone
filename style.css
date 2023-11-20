@@ -28,7 +28,7 @@ nav {
 .logo {
   width: 128px;
   height: 19px;
-  background: url(download.png);
+  background: url(./download.png);
   background-size: cover;
   object-fit: contain;
   scale: 0.9;
@@ -66,7 +66,7 @@ nav button:hover {
 .img1 {
   width: 80%;
   height: 450px;
-  background: url(hero-image.webp);
+  background: url(./hero-image.webp);
   background-size: cover;
 }
 .msg1 {
@@ -113,7 +113,7 @@ nav button:hover {
 .img2 {
   width: 80%;
   height: 500px;
-  background: url(homepage-buy-sell.webp);
+  background: url(./homepage-buy-sell.webp);
   background-size: cover;
   margin-top: 50px;
 }
