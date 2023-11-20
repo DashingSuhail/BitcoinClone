@@ -1,0 +1,187 @@
+:root {
+  --blue: #2793ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+main {
+  width: 100%;
+  height: auto;
+  background: #e5f3fd;
+}
+nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  backdrop-filter: blur(5px);
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.5s;
+}
+.logo {
+  width: 128px;
+  height: 19px;
+  background: url(/download.png);
+  background-size: cover;
+  object-fit: contain;
+  scale: 0.9;
+}
+nav button .logo {
+  margin: 0 15px;
+}
+nav button {
+  outline-width: none;
+  cursor: pointer;
+  border: none;
+  padding: 13px;
+  width: 125px;
+  border-radius: 11px;
+  background: var(--blue);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.2);
+}
+nav button:hover {
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.2),
+    inset 0px 5px 7px rgba(27, 170, 245, 0.6);
+  scale: 0.98;
+}
+.center {
+  text-align: -webkit-center;
+}
+.cont {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+.img1 {
+  width: 80%;
+  height: 450px;
+  background: url(/hero-image.webp);
+  background-size: cover;
+}
+.msg1 {
+  font-weight: bolder;
+  font-size: 27px;
+  margin: 10px;
+  width: 70%;
+}
+.msg2 {
+  font-size: 14.5px;
+  width: 90%;
+}
+.install,
+.buy,
+.buy2,
+.signup {
+  width: 80%;
+  padding: 12px;
+  outline-width: none;
+  border: none;
+  border-radius: 13px;
+  margin: 15px 0;
+  background: var(--blue);
+  color: #fff;
+  font-weight: 600;
+  font-size: 15.5px;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.install:hover,
+.buy:hover,
+.signup:hover {
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.2),
+    inset 0px 5px 7px rgba(27, 170, 245, 0.6);
+  scale: 0.98;
+}
+.install a,
+.buy a {
+  color: #fff;
+}
+.img2 {
+  width: 80%;
+  height: 500px;
+  background: url(/homepage-buy-sell.webp);
+  background-size: cover;
+  margin-top: 50px;
+}
+.bmsg {
+  font-size: 14.5px;
+  width: 90%;
+  color: var(--blue);
+  font-weight: bolder;
+}
+.msg22 {
+  font-size: 14.5px;
+  width: 90%;
+  margin-top: 20px;
+}
+.buy {
+  width: 75%;
+  padding: 14px;
+  cursor: pointer;
+}
+.buy2 {
+  background-color: #fff;
+  width: 75%;
+  margin-top: 0;
+  cursor: pointer;
+}
+.buy2 a {
+  color: #000;
+}
+.buy2:hover {
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.2), 0px 5px 7px rgba(0, 0, 0, 0.2);
+  scale: 0.98;
+}
+.second-div {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to top right, #151924, #131720);
+  margin-top: 10px;
+  padding: 50px 10px;
+}
+.msg3 {
+  color: #fff;
+  width: 85%;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.msg4 {
+  font-size: 14.5px;
+  width: 90%;
+  color: #fff;
+  margin-top: 15px;
+}
+.email-input {
+  width: 85%;
+  padding: 13px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin: 20px;
+  margin-bottom: 15px;
+}
+.signup {
+  cursor: pointer;
+  margin-top: 0px;
+  padding: 10px;
+  width: 85%;
+}
+footer {
+  width: 100%;
+  height: 500px;
+}

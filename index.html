@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Bitcoin website clone">
+    <meta name="description" content="Bitcoin website clone to improve skills and experience">
+    <link rel="stylesheet" href="style.css">
+    <title>Bitcoin Clone</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="logo"></div>
+            <button>Download</button>
+        </nav>
+        <div class="cont">
+            <div class="center">
+                <div class="img1"></div>
+                <div class="msg1">
+                    Buy your first Bitcoin today
+                </div>
+                <p class="msg2">
+                    Buy, sell , invest and trade in Bitcoin & crypto - all in one safe and simple app.
+                </p>
+                <button class="install">
+                    <a href="#">Install the app</a>
+                </button>
+                <div class="img2"></div>
+                <div class="msg1">
+                    Buy quickly and easily
+                </div>
+                <span class="bmsg">
+                    Buy as little as $20 worth to get started!
+                </span>
+                <p class="msg22">
+                    Use your credit card, payment app, or bank account to buy Bitcoin and other crypto.
+                </p>
+                <button class="buy">
+                    <a href="#">Buy in app</a>
+                </button>
+                <button class="buy2">
+                    <a href="#">Buy on web</a>
+                </button>
+                <div class="second-div">
+                    <div class="msg3">
+                        Get the crypto news that matters in your inbox
+                    </div>
+                    <p class="msg4">
+                        Nes, opinions and educated trusted by millions
+                    </p>
+                    <input  class="email-input" type="email" placeholder="Emailaddress">
+                    <button class="signup" >Sign up</button>
+                </div>
+            </div class="center">
+        </div>
+    </main>
+    <script>
+        let nav = document.querySelector("nav"), cont = document.querySelector(".cont");
+        window.addEventListener("scroll" , ()=>{
+            if(window.scrollY>80){
+                nav.style.position = "fixed";
+                nav.style.top = 0;
+                nav.style.background = "rgba(255, 255, 255, .7)";
+                nav.style.boxShadow = "3px 3px 5px rgba(0, 0, 0, .2)";
+                cont.style.marginTop = "85px";
+            }else{
+                nav.style.position = "static";
+                nav.style.top = 0;
+                nav.style.background = "rgba(0, 0, 0, 0)";
+                nav.style.boxShadow = "3px 3px 5px rgba(0, 0, 0, 0)";
+                cont.style.marginTop = "15px";
+            }
+        })
+    </script>
+</body>
+</html>
